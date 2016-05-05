@@ -1,0 +1,863 @@
+@font-face {
+
+	font-family: bq; src: url('bq.otf');
+
+}
+
+@font-face{
+
+	font-family: segoeuil; src: url('segoeuil.ttf');
+    
+     src: url(../css/segoeuil.eot);
+
+}
+
+
+a { color: inherit; 
+
+    text-decoration: none;
+
+} 
+
+
+
+html,body{
+
+   font-family: segoeuil;
+
+    margin: 0px 0px 0px 0px;
+
+    width: 100%;
+
+    height: 100%;
+
+
+
+}
+
+
+
+.page {
+
+    height: 90%;
+    width: 100%; 
+    margin:auto;
+    min-height: 377px;
+    padding-top: 10%;
+    position: relative;
+    text-align: left;
+    font-size: 110%;
+    background: url(../img/blur_background.jpg) 50% fixed;
+    background-size: cover;
+    background-position: 50% 0px;
+
+    z-index: 1;
+    
+     color: white;
+   
+    
+}
+
+#meetAgustin {
+    color: white;
+    font-size: 150%;
+}
+
+#centerPiece {
+
+}
+#ao3 {
+    height: 30%;
+    width: 30%;
+
+}
+
+
+#stay{
+
+    width: 25%;
+    margin: auto;
+    background-color: rgba(205, 204, 205, 0.4);
+    border-radius: 10px;
+    text-align: center; 
+    padding: 2%;
+
+}
+#downArrow {
+
+
+	-webkit-animation: down 1s infinite;
+    -webkit-animation-direction: alternate;
+	animation: down .3s infinite;
+    float: left;
+}
+
+#downArrow2 {
+   
+ 
+
+	-webkit-animation: down 1s infinite;
+    -webkit-animation-direction: alternate;
+	animation: down .3s infinite;
+    float: right;
+}
+
+.page h2 {
+    margin: 0;
+}
+
+
+.page p {
+
+
+	text-align: center;
+    display: block;
+    margin: 0;
+
+}
+
+.page img {
+    display: block;
+    margin: auto;
+    
+}
+
+
+
+.page2 {
+
+    height: 100%;
+    width: 100%; 
+    
+    background: #ff4411;
+    background-repeat: no-repeat;
+    background: url(../img/blur2_background.jpg) fixed;
+    background-position: 50% 0px;
+    background-size: cover; 
+    min-height: 747px;
+    z-index: -100;
+}
+
+#location{
+   font-size: 150%;
+   text-shadow: 3px 3px 8px #000;
+   font-weight: bolder;
+   text-decoration: underline;
+   text-decoration-color: #ff4411;
+   /*background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 10px;*/
+   width: 85%;
+   padding-right: 20%;
+
+
+}
+
+
+.page3 {
+
+    height: 100%;
+    width: 100%; 
+    position: relative;
+    margin:auto;
+    background: #ff4411;
+    background-repeat: no-repeat;
+    background: url(../img/bgsu_background.jpg) fixed;
+    background-position: 50% 0px;
+    background-size: cover; 
+    z-index: 1;
+   
+}
+
+.page3-1 {
+
+    height: 100%;
+    width: 100%; 
+    margin:auto;
+    background: #ff4411;
+    background-repeat: no-repeat;
+    background: url(../img/ohiostatdium_background.jpg) 50% fixed;
+    background-position: 50% 0px;
+    background-size:    ; 
+    z-index: 1;
+    position: relative;
+}
+
+
+
+.page4 {
+
+    height: auto;
+    background-color: #000;
+    width: 100%; 
+    margin:auto;
+    position: relative;
+    z-index: 4  ;
+    background-repeat: no-repeat;
+
+}
+
+
+
+#map-canvas { height: 100% }
+
+
+
+/* Structural elements */
+
+.header img {
+
+	width: %;
+	height: 8%;
+	float: left;
+
+}
+
+
+
+.header h2 {
+
+	float: left;
+
+	padding-left: 2%;
+
+}
+
+
+
+#logo {
+
+	height: 100px;
+
+	width: 100px;
+
+
+
+}
+
+#buttonContainer {
+
+  width: 50%;
+
+  height: 50%;
+
+  overflow: auto;
+
+  margin: auto;
+
+  position: relative;
+
+}
+
+
+
+.centered {
+
+  width: 50%;
+
+  height: 50%;
+
+  overflow: auto;
+
+  margin: auto;
+
+  position: absolute;
+
+  top: 0; left: 0; bottom: 0; right: 0;
+
+}
+
+.centered , h1, h2 {
+
+	text-align: center;
+
+
+
+}
+
+.centered p {
+
+	display: inline;
+
+	text-align: center;
+
+}
+
+
+
+.increaseText {
+
+	font-size: 130%;
+
+}
+
+
+
+.sogeti {
+
+	color: #ff4411;
+	
+
+}
+
+
+
+.ohiostate {
+
+	color: #b00;
+    
+
+}
+
+
+
+.bgsu {
+
+	color: #fe871a;
+    
+
+}
+
+
+
+@-webkit-keyframes enter {
+
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes down {
+from {
+    top:0;
+    opacity: 1;
+    -webkit-animation-timing-function: ease-in;
+
+}
+
+to{
+    top: 35px;
+    opacity: .5;
+    -webkit-animation-timing-function: ease-out;
+}
+}
+
+
+@keyframes enter {
+
+	0% {opacity: 0;}
+
+	50% {opacity: 1}
+
+	100% {opacity: 0;}
+
+}
+
+
+
+
+.Absolute-Center {
+
+	position: relative;
+
+
+
+}
+
+
+
+.img-circular {
+
+    width: 150px;
+
+    height: 150px;
+
+    background-size: cover;
+
+    opacity: .7;
+
+    display: block;
+
+    border-radius: 100px;
+
+    -webkit-border-radius: 100px;
+
+    -moz-border-radius: 100px;
+
+    float: left;
+
+}
+
+ .layout {
+
+    width: auto;
+
+    margin: 0 auto;
+    
+    padding-top: 1%;
+    
+    font-size: .75em;
+
+    color: white;
+
+
+}   
+
+ #navfloat {
+     float: right;
+ }
+
+#personal {
+    float: left;
+}
+
+#work {
+    float: right;
+}
+
+.left {
+
+    text-align: left;
+
+}
+
+
+
+h3.left  {
+
+    color: blue;
+
+}
+
+
+
+#personalEmail:hover {
+
+    color:  #3498db;
+
+}
+
+
+
+#number:hover {
+
+    color: #3498db;
+
+}
+
+
+
+#contactSogeti:hover{
+
+    color: #ff4411;
+
+    cursor: pointer;
+
+}
+
+
+
+#workNumber:hover{
+
+    color: #ff4411;
+
+    cursor: pointer;
+
+}
+
+
+
+#contactTwitter:hover{
+
+    color: #3498db;
+
+    cursor: pointer;
+
+}
+
+
+
+#contactTwitter:hover{
+
+    color: #3498db;
+
+    cursor: pointer;
+
+}
+
+
+
+#contactFacebook:hover{
+
+    color: #3498db;
+
+    cursor: pointer;
+
+}
+
+
+
+#contactBgsu:hover {
+
+    color: #fe871a;
+
+}
+
+
+
+#contactOhioState:hover {
+
+    color: #b00;
+
+}
+
+
+
+#contactHeader {
+    float: left;
+    padding-left: 2%;
+
+}
+
+#projectLink:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#fixed {
+    position: fixed;
+    top: 10%;   
+
+    z-index: 0;
+    font: black;
+
+}
+
+.front {
+    z-index: 100;
+    position: relative;
+   
+}
+
+#coverRed {
+     background-color: rgba(187, 0, 0, 0.5);
+     height: inherit;
+}
+
+#coverOrange {
+    background-color: rgba(254, 135, 26, 0.5);
+    height: inherit;
+}
+
+
+.titleHeader {
+
+    color: white;
+    padding-top:1%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+
+.titleHeader img {
+    outline: 0; 
+    max-width: 100%;
+    height: auto;
+}
+
+#microsoft {
+    width: 100%;
+    height: 100%;
+    margin-right: 10%;
+}
+
+#employer {
+    background: rgba(255, 68, 17, 0.8);
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: left;
+    width: 30%;
+    padding-left: 1%;
+    color: white;
+    height: 300px;
+    margin-left: 2%;
+    float: left;
+    border: solid transparent white 1px;
+    overflow: auto;
+    visibility: hidden;
+
+}
+
+#apple {
+    background: rgba(102, 102, 102, 0.8);
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: left;
+    width: 30%;
+    ;
+    padding-left: 1%;
+    margin-top: 2%;
+    color: white;
+     height: 300px;
+    float: left;
+    margin-left: 2%;
+    border: solid transparent white 1px;
+    overflow: auto;
+    visibility: hidden;
+}
+
+#apple:hover {
+    background: rgba(102, 102, 102, 1);
+    
+}
+
+
+#employer:hover {
+    background: rgba(255, 68, 17, 1);
+
+}
+
+#assignment {
+    background: rgba(122, 193, 98, 0.8);
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: left;
+    width: 30%;
+    padding-left: 1%;
+    color: white;
+     height: 300px;
+    float: left;
+    margin-left: 2%;
+    border: solid transparent white 1px;
+    overflow: auto;
+    visibility: hidden;
+}
+
+#assignment:hover {
+    background: rgba(122, 193, 98, 1);
+
+}
+
+#code {
+    background: rgba(15, 22, 111, 0.8);
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: left;
+    width: 30%;
+    padding-left: 1%;
+    color: white;
+     height: 300px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: solid transparent white 1px;
+    overflow: auto;
+    visibility: hidden;
+}
+
+#code:hover {
+    background: rgba(15, 22, 111, 1);
+}
+
+#interest {
+    background: rgba(187, 0, 0, 0.8);
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: left;
+    width: 30%;
+    padding-left: 1%;
+    margin-left : 2%;
+    color: white;
+    height: 300px;
+    float: left;
+    border: solid transparent white 1px;
+    overflow: auto;
+    visibility: hidden;
+
+}
+
+.blur {
+
+}
+
+#interest:hover {
+    background: rgba(187, 0, 0, 1);
+}
+
+#interestTest {
+    background: rgba(255, 0, 0, .8);
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: left;
+    width: 100%;
+    padding-bottom: 30%;
+    ;
+    padding-left: 1%;
+    color: white;
+    float: left;
+    border: solid transparent white 1px;
+      
+}
+
+#interestTest:hover {
+    background: rgba(255, 0, 0, 1);
+}
+#mblock {
+    background: rgba(21, 112, 166, 0.8);
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: left;
+    width: 30%;
+    padding-left: 1%;
+    color: white;
+     height: 300px;
+    float: left;
+    margin-left : 2%;
+    margin-top: 2%;
+    display: block;
+    border: solid transparent white 1px;
+    overflow: auto;
+    visibility: hidden;
+}
+
+#mblock:hover {
+    background: rgba(21, 112, 166, 1);
+
+}
+
+.iconImage{
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+
+#bowlinggreen {
+    width: 20%;
+    height: 20%;
+    float: right;
+    padding-bottom: 2%;
+    padding-right: 5%;
+}
+
+#osu {
+    width: 20%;
+    height: 20%;
+    
+    
+}
+
+#bgTitle {
+
+    /*background-color: rgba(254, 135, 26, 0.75);
+    border-radius: 10px;*/
+    text-shadow: 3px 3px 8px #000;
+    color: #fff;
+    font-size: 200%;
+    width: auto;
+}
+
+#bgTitle1 {
+
+    /*background-color: rgba(254, 135, 26, 0.75);
+    border-radius: 10px;*/
+    width: 60%;
+    
+    text-align: left;
+    padding-left: 1%;
+}
+
+#osuTitle {
+    /*background-color: rgba(187, 0, 0, 0.75);
+    border-radius: 10px;*/
+    text-shadow: 3px 3px 8px #000;
+    color: #fff;
+    font-size: 200%;
+    width: auto;
+}
+
+#osuTitle1 {
+    /*
+    background-color: rgba(187, 0, 0, 0.75);
+    border-radius: 10px;*/]
+    text-shadow: 3px 3px 8px #000;
+    width: 60%;
+    
+    text-align: left;
+    padding-left: 1%;
+}
+
+.blur {
+     -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+
+    opacity: 0.4
+
+}
+
+#contactTable {
+    text-align: center; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#footer a {
+    text-decoration: underline;
+}
+
+#aboutAgustin {
+    visibility: hidden;
+    font-size: 150%
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.iframe-outer {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+}
+
+    .iframe-outer:after {
+        content: '';
+        display: block;
+        margin-top: 100%;
+    }
+
+.iframe-inner {
+    overflow: hidden;
+    border-radius: 5000px;
+    transition: all ease .2s;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+    .iframe-inner iframe {
+        height: 120%;
+        width: 120%;
+    }
