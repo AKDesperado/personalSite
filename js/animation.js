@@ -1,12 +1,15 @@
 var currentPoint = 0;
 
+
+
 $(document).ready(function () {
        $(function(){
             $("#meetAgustin").typed({ 
-                strings: ["Hello...^3000", "I am Agustin Ortiz III", "I sometimes go by Augie", "Find out more below..." ],
-                typeSpeed: 100,
-                contentType: 'text'
+                strings: ["<span class='comment'>// Hello...let's code.</span> <br> <span class='var'>var</span> siteOwner = <span class='string'>\"Agustin Ortiz III\"</span>;<br> <span class='var'>var</span> nickName = <span class='string'>\"Augie\"</span>;<br> <span class='var'>var</span> traits = [<span class='string'>\"Developer\"</span>,<span class='string'>\"Researcher\"</span>, <span class='string'>\"Consultant\"</span>];<br> <span class='var'>var</span> home = map.LatLong(<span class='int'>39.9500064</span>,<span class='int'>-83.0313914</span>); <span class='comment'> //Columbus, OH</span> "],
+                typeSpeed: 75,
+                contentType: 'html'
             });
+
 
 
 
@@ -217,7 +220,7 @@ $(document).ready(function () {
     });
     $("#apple").hover(function () {
         $("#cssmenu").css({ background: "rgba(102, 102, 102, 1)" });
-        $("#nav").html('<p class="navContent">Apple evangelist. Developed iOS application for BGSU.  Apple desktop suport experince for both software and hardware.</p>');
+        $("#nav").html('<p class="navContent">Currently running project management on iOS development project. Developed iOS application for BGSU.  Apple desktop support experience for both software and hardware.</p>');
          $("#cssmenu").addClass('animated fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $("#cssmenu").removeClass('animated fadeInDown');
         });
