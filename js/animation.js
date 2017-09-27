@@ -3,8 +3,8 @@ var currentPoint = 0;
 $(document).ready(function () {
        $(function(){
             $("#meetAgustin").typed({ 
-                strings: ["Hello...^3000", "I am Agustin Ortiz III", "I sometimes go by Augie", "Find out more below..." ],
-                typeSpeed: 100,
+                strings: ["Hello...^2100", "I am Agustin Ortiz III", "I sometimes go by Augie", "Find out more below..." ],
+                typeSpeed: 75,
                 contentType: 'text'
             });
 
@@ -16,13 +16,19 @@ $(document).ready(function () {
     //Iphone change table 
     if (screen.width >= 320 && screen.width <= 568) 
     {
-          $("#contactTable").html('<tr><td><a href="mailto:augieortiz@me.com"><img id="mailPersonal"src="img/mail_icon.png" /></a><a href="mailto:augieortiz@me.com"><p class="left" id="personalEmail">augieortiz@me.com</p></a></td><td><a href=tel:"19078543164"><img id="" src="img/phone_icon.png" /></a> <a href=tel:"1907854-164"><p class="left" id="">Call Me</p></a></td>  <td><a href="../files/Agustin_Ortiz_Resume.pdf"><img id="documentImg" src="img/document_icon.png" /></a><a href="../files/Agustin_Ortiz_Resume.pdf"><p class="left" id="contactResume">Download R&#233sum&#233</p></a></td></tr><');
+          $("#contactTable").html('<tr><td><a href="mailto:augie@devao.me"><img id="mailPersonal"src="img/close-envelope.png" /></a><a href="mailto:augie@devao.me"><p class="left" id="personalEmail">augie@devao.me</p></a></td><td><a href=tel:"19078543164"><img id="" src="img/smartphone.png" /></a> <a href=tel:"1907854-164"><p class="left" id="">Call Me</p></a></td>  <td><a href="../files/Agustin_Ortiz_Resume.pdf"><img id="documentImg" src="img/resume.png" /></a><a href="../files/Agustin_Ortiz_Resume.pdf"><p class="left" id="contactResume">Download R&#233sum&#233</p></a></td></tr><');
           $("#touchInfo").html('<p>(Tap square for more info)');
     }
 
     if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) 
     {
         $("#touchInfo").html('<p>(Tap square for more info)');
+
+            $("#ee").hover( function () {
+        $("#interest").html("<img id='brutus' style = 'display: block; width: 100%; height: 100%; position: relative;' class='animated fadeInUp ' src='img/osu_brutus.gif'/><h1 id='brutusText'>MRW I finally get my Master's Degree</h1>");
+        $('#interest').css('padding-left', '0');
+    
+    });
 
         $(".page1").on("swipe", function () {
             $("#stay").addClass('animated fadeOutDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
@@ -95,7 +101,7 @@ $(document).ready(function () {
             {
                 $("#interest").css({ visibility: "visible" });
                 $("#interest").addClass('animated fadeIn');
-               
+
                 
             }
              if ($(this).scrollTop() > page1 / 2) 
@@ -185,11 +191,17 @@ $(document).ready(function () {
     // Change Nav bar color based on hover of block object on page 2
     //
 
+    //ee for graduation
+
+    $("#ee").click( function () {
+        $("#interest").html("<img id='brutus' style = 'display: block; width: 100%; height: 100%; position: relative;' class='animated fadeInUp ' src='img/osu_brutus.gif'/><h1 id='brutusText'>MRW I finally get my Master's Degree</h1>");
+        $('#interest').css('padding-left', '0');
+    });
     
 
     $("#interest").hover(function () {
-        $("#cssmenu").css({ background: "rgba(187, 0, 0, 1)" });
-        $("#nav").html('<p class="navContent" id="navInterest">Travel. Programming. San Francisco 49ers. Apple. Tech. Microsoft. Boston Red Sox. USMNT. Blue Jackets. Columbus Crew. FCK1. LeBron James. Ohio State. Bowling Green State. Computer Science. PR. </p>');
+        $("#cssmenu").css({ background: "rgba(102, 102, 102, 1)" });
+        $("#nav").html('<p class="navContent" id="navInterest">Travel. Programming. San Francisco 49ers. Apple. Tech. Microsoft. Google. Boston Red Sox. USMNT. CBJ. Columbus Crew. FCK1. LeBron James. Ohio State. Bowling Green State. Computer Science. PR. </p>');
         $("#cssmenu").addClass('animated fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $("#cssmenu").removeClass('animated fadeInDown');
         });
@@ -204,7 +216,7 @@ $(document).ready(function () {
 
     $("#mblock").hover(function () {
         $("#cssmenu").css({ background: "rgba(21, 112, 166, 1)" });
-        $("#nav").html('<p class="navContent">4 years experience in .NET development. C# is most skilled language.  Developed both WPF and Silverlight applications for Eureka Gaming Inc.</p>');
+        $("#nav").html('<p class="navContent">5 years experience in .NET development. C# is most skilled language.  Developed both WPF and Silverlight applications for Eureka Gaming Inc.</p>');
          $("#cssmenu").addClass('animated fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $("#cssmenu").removeClass('animated fadeInDown');
         });
@@ -216,8 +228,8 @@ $(document).ready(function () {
         });
     });
     $("#apple").hover(function () {
-        $("#cssmenu").css({ background: "rgba(102, 102, 102, 1)" });
-        $("#nav").html('<p class="navContent">Apple evangelist. Developed iOS application for BGSU.  Apple desktop suport experince for both software and hardware.</p>');
+        $("#cssmenu").css({ background: "rgba(256, 256, 256, 1)" });
+        $("#nav").html('<p style="color: black" class="navContent">Project Manager. Developed iOS application for BGSU.  Apple desktop suport experince for both software and hardware.</p>');
          $("#cssmenu").addClass('animated fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $("#cssmenu").removeClass('animated fadeInDown');
         });
@@ -230,8 +242,8 @@ $(document).ready(function () {
 
     });
     $("#employer").hover(function () {
-        $("#cssmenu").css({ background: "rgba(255, 68, 17, 1)" })
-        $("#nav").html(' <p class="navContent" id="navInterest">DevAO is a brand started by myself offering technology solutions featuring custom code & development.  My development skills have allowed me to reach out and help companies with their development needs.  If you are need of a solution, don\'t hesitate to call</p>');
+        $("#cssmenu").css({ background: "rgba(0, 0, 0, 1)" })
+        $("#nav").html(' <p style="color: #2780e3" class="navContent" id="navInterest">DevAO is a brand started by myself offering technology solutions featuring custom code & development.  My development skills have allowed me to reach out and help companies with their development needs.  If you are need of a solution, don\'t hesitate to call</p>');
          $("#cssmenu").addClass('animated fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $("#cssmenu").removeClass('animated fadeInDown');
         });
@@ -243,8 +255,8 @@ $(document).ready(function () {
         });
     });
     $("#assignment").hover(function () {
-        $("#cssmenu").css({ background: "rgba(122, 193, 98, 1)" });
-        $("#nav").html('<p class="navContent">Some previous client work includes: Database design, DevOps, Web Landing Pages, Content management solutions, email migrations, SharePoint dev, Domain Administration, Mobile Apps. </p>');
+        $("#cssmenu").css({ background: "rgba(255,255,255, 1)"});
+        $("#nav").html('<p style="color: black" class="navContent">Some previous client work includes: Database design, DevOps, Web Landing Pages, Content management solutions, email migrations, SharePoint dev, Domain Administration, Mobile Apps. </p>');
          $("#cssmenu").addClass('animated fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $("#cssmenu").removeClass('animated fadeInDown');
         });
@@ -257,7 +269,7 @@ $(document).ready(function () {
     });
     $("#code").hover(function () {
         $("#cssmenu").css({ background: "rgba(15, 22, 111, 1)" });
-        $("#nav").html('<p class="navContent">5 years programming experience. Developed simulation market game with Eureka Gaming Inc. Developed bank server management site. Developed this :)</p>');
+        $("#nav").html('<p class="navContent">7 years programming experience. Developed simulation market game with Eureka Gaming Inc. Developed bank server management site. Developed this :)</p>');
          $("#cssmenu").addClass('animated fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $("#cssmenu").removeClass('animated fadeInDown');
         });
@@ -447,6 +459,9 @@ $(document).ready(function () {
         }); // window scroll
 
     });	// each data-type
+
+
+
 
 
 }); // document ready

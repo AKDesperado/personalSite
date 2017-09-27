@@ -47,7 +47,7 @@ html,body{
     position: relative;
     text-align: left;
     font-size: 110%;
-    background: url(../img/blur_background.jpg) 50% fixed;
+    background: url(../img/cbus.jpg) 50% fixed;
     background-size: cover;
     background-position: 50% 0px;
 
@@ -572,7 +572,7 @@ h3.left  {
 }
 
 #employer {
-    background: rgba(255, 68, 17, 0.8);
+    background: rgba(39,128,227, 0.8);
     border-radius: 5px;
     font-size: 1em;
     text-align: left;
@@ -589,7 +589,7 @@ h3.left  {
 }
 
 #apple {
-    background: rgba(102, 102, 102, 0.8);
+    background: rgba(153, 153, 153, 0.8);
     border-radius: 5px;
     font-size: 1em;
     text-align: left;
@@ -607,13 +607,13 @@ h3.left  {
 }
 
 #apple:hover {
-    background: rgba(102, 102, 102, 1);
+    background: rgba(153, 153, 153, 1);
     
 }
 
 
 #employer:hover {
-    background: rgba(255, 68, 17, 1);
+    background: rgba(39,128,227, 1);
 
 }
 
@@ -631,6 +631,11 @@ h3.left  {
     border: solid transparent white 1px;
     overflow: auto;
     visibility: hidden;
+}
+
+#assignment a:hover {
+    text-decoration: underline;
+    
 }
 
 #assignment:hover {
@@ -663,6 +668,7 @@ h3.left  {
     background: rgba(187, 0, 0, 0.8);
     border-radius: 5px;
     font-size: 1em;
+    position: relative;
     text-align: left;
     width: 30%;
     padding-left: 1%;
@@ -674,6 +680,17 @@ h3.left  {
     overflow: auto;
     visibility: hidden;
 
+}
+
+#interet > img {
+    position:absolute;
+    top:50%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    min-width:100%;
+}
 }
 
 .blur {
@@ -703,7 +720,8 @@ h3.left  {
     background: rgba(255, 0, 0, 1);
 }
 #mblock {
-    background: rgba(21, 112, 166, 0.8);
+    
+    background: rgba(255, 187, 0, 0.8);
     border-radius: 5px;
     font-size: 1em;
     text-align: left;
@@ -721,13 +739,26 @@ h3.left  {
 }
 
 #mblock:hover {
-    background: rgba(21, 112, 166, 1);
+    background: rgba(255, 187, 0, 1);
 
 }
 
 .iconImage{
     padding-top: 3%;
     padding-left: 3%;
+}
+
+#brutus {
+     z-index: -1;
+}
+
+#brutusText {
+
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+text-shadow: 2px 0 0 #000
 }
 
 
@@ -861,3 +892,4 @@ h3.left  {
         height: 120%;
         width: 120%;
     }
+
