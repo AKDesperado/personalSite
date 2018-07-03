@@ -3,7 +3,7 @@ var currentPoint = 0;
 $(document).ready(function () {
        $(function(){
             $("#meetAgustin").typed({ 
-                strings: ["Hello...^2100", "I am Agustin Ortiz III", "I sometimes go by Augie", "Find out more below..." ],
+                strings: ["Hello...^2100", "I am Antonio Ortiz", "I sometimes go by Ton", "Find out more below..." ],
                 typeSpeed: 75,
                 contentType: 'text'
             });
@@ -201,7 +201,7 @@ $(document).ready(function () {
 
     $("#interest").hover(function () {
         $("#cssmenu").css({ background: "rgba(102, 102, 102, 1)" });
-        $("#nav").html('<p class="navContent" id="navInterest">Travel. Programming. San Francisco 49ers. Apple. Tech. Microsoft. Google. Boston Red Sox. USMNT. CBJ. Columbus Crew. FCK1. LeBron James. Ohio State. Bowling Green State. Computer Science. PR. </p>');
+        $("#nav").html('<p class="navContent" id="navInterest">Travel. Programming. Apple. Tech. Microsoft. Google. Boston Red Sox. USMNT. CBJ. Columbus Crew. LeBron James. Ohio State. Computer Science. Puerto Rico Fuerte. </p>');
         $("#cssmenu").addClass('animated fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $("#cssmenu").removeClass('animated fadeInDown');
         });
@@ -243,7 +243,7 @@ $(document).ready(function () {
     });
     $("#employer").hover(function () {
         $("#cssmenu").css({ background: "rgba(0, 0, 0, 1)" })
-        $("#nav").html(' <p style="color: #2780e3" class="navContent" id="navInterest">DevAO is a brand started by myself offering technology solutions featuring custom code & development.  My development skills have allowed me to reach out and help companies with their development needs.  If you are need of a solution, don\'t hesitate to call</p>');
+        $("#nav").html(' <p style="color: #2780e3" class="navContent" id="navInterest">DevAO is a brand started by my older brother, Agustin, offering technology solutions featuring custom code & development.  Our development skills have allowed us to reach out and help companies with their development needs.  If you are need of a solution, don\'t hesitate to call</p>');
          $("#cssmenu").addClass('animated fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $("#cssmenu").removeClass('animated fadeInDown');
         });
