@@ -16,7 +16,7 @@ $(document).ready(function () {
     //Iphone change table 
     if (screen.width >= 320 && screen.width <= 568) 
     {
-          $("#contactTable").html('<tr><td><a href="mailto:augie@devao.me"><img id="mailPersonal"src="img/close-envelope.png" /></a><a href="mailto:augie@devao.me"><p class="left" id="personalEmail">augie@devao.me</p></a></td><td><a href=tel:"19078543164"><img id="" src="img/smartphone.png" /></a> <a href=tel:"1907854-164"><p class="left" id="">Call Me</p></a></td>  <td><a href="../files/Agustin_Ortiz_Resume.pdf"><img id="documentImg" src="img/resume.png" /></a><a href="../files/Agustin_Ortiz_Resume.pdf"><p class="left" id="contactResume">Download R&#233sum&#233</p></a></td></tr><');
+          $("#contactTable").html('<tr><td><a href="mailto:augie@devao.me"><img id="mailPersonal"src="img/close-envelope.png" /></a><a href="mailto:augie@devao.me"><p class="left" id="personalEmail">augie@devao.me</p></a></td><td><a href=tel:"19078543164"><img id="" src="img/smartphone.png" /></a> <a href=tel:"1907854-164"><p class="left" id="">Call Me</p></a></td>  <td><a href="../files/Antonio_Ortiz_Resume.pdf"><img id="documentImg" src="img/resume.png" /></a><a href="../files/Antonio_Ortiz_Resume.pdf"><p class="left" id="contactResume">Download R&#233sum&#233</p></a></td></tr><');
           $("#touchInfo").html('<p>(Tap square for more info)');
     }
 
@@ -208,7 +208,7 @@ $(document).ready(function () {
         
     }, function () {
         $("#cssmenu").css({ background: "black" })
-        $("#nav").html(' <a href="#" target=""><p class="navContent1" id="homes">| Agustin Ortiz</p></a><p class="navContent1">|</p><a href="https://www.linkedin.com/pub/agustin-ortiz/5a/b60/764" target="_blank"><p class="navContent1" id="linkedIn">LinkedIn </p></a><p class="navContent1">|</p><a href="https://twitter.com/augieortiz" target="_blank"><p class="navContent1" id="twitter">Twitter </p></a><p class="navContent1">|</p><a href="https://www.facebook.com/ortizaugie" target="_blank"><p class="navContent1" id="facebook"</p>facebook</a><p class="navContent1">|</p>');
+        $("#nav").html(' <a href="#" target=""><p class="navContent1" id="homes">| Antonio Ortiz</p></a><p class="navContent1">|</p><a href="https://www.linkedin.com/in/antonio-ortiz-0a9343135/" target="_blank"><p class="navContent1" id="linkedIn">LinkedIn </p></a><p class="navContent1">|</p><a href="https://twitter.com/augieortiz" target="_blank"><p class="navContent1" id="twitter">Twitter </p></a><p class="navContent1">|</p><a href="https://www.facebook.com/ortizaugie" target="_blank"><p class="navContent1" id="facebook"</p>facebook</a><p class="navContent1">|</p>');
         $("#cssmenu").addClass('animated fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $("#cssmenu").removeClass('animated fadeInDown');
         });
@@ -222,7 +222,7 @@ $(document).ready(function () {
         });
     }, function () {
         $("#cssmenu").css({ background: "black" });
-        $("#nav").html(' <p class="navContent1">|</p><a href="#" target=""><p class="navContent1" id="homes">Agustin Ortiz</p></a><p class="navContent1">|</p><a href="https://www.linkedin.com/pub/agustin-ortiz/5a/b60/764" target="_blank"><p class="navContent1" id="linkedIn">LinkedIn </p></a><p class="navContent1">|</p><a href="https://twitter.com/augieortiz" target="_blank"><p class="navContent1" id="twitter">Twitter </p></a><p class="navContent1">|</p><a href="https://www.facebook.com/ortizaugie" target="_blank"><p class="navContent1" id="facebook"</p>facebook</a><p class="navContent1">|</p>');
+        $("#nav").html(' <p class="navContent1">|</p><a href="#" target=""><p class="navContent1" id="homes">Antonio Ortiz</p></a><p class="navContent1">|</p><a href="https://www.linkedin.com/in/antonio-ortiz-0a9343135/" target="_blank"><p class="navContent1" id="linkedIn">LinkedIn </p></a><p class="navContent1">|</p><a href="https://twitter.com/augieortiz" target="_blank"><p class="navContent1" id="twitter">Twitter </p></a><p class="navContent1">|</p><a href="https://www.facebook.com/ortizaugie" target="_blank"><p class="navContent1" id="facebook"</p>facebook</a><p class="navContent1">|</p>');
         $("#cssmenu").addClass('animated fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $("#cssmenu").removeClass('animated fadeInDown');
         });
@@ -235,7 +235,7 @@ $(document).ready(function () {
         });
     }, function () {
         $("#cssmenu").css({ background: "black" });
-        $("#nav").html(' <p class="navContent1">|</p><a href="#" target=""><p class="navContent1" id="homes">Agustin Ortiz</p></a><p class="navContent1">|</p><a href="https://www.linkedin.com/pub/agustin-ortiz/5a/b60/764" target="_blank"><p class="navContent1" id="linkedIn">LinkedIn </p></a><p class="navContent1">|</p><a href="https://twitter.com/augieortiz" target="_blank"><p class="navContent1" id="twitter">Twitter </p></a><p class="navContent1">|</p><a href="https://www.facebook.com/ortizaugie" target="_blank"><p class="navContent1" id="facebook"</p>facebook</a><p class="navContent1">|</p>');
+        $("#nav").html(' <p class="navContent1">|</p><a href="#" target=""><p class="navContent1" id="homes">Antonio Ortiz</p></a><p class="navContent1">|</p><a href="https://www.linkedin.com/in/antonio-ortiz-0a9343135/" target="_blank"><p class="navContent1" id="linkedIn">LinkedIn </p></a><p class="navContent1">|</p><a href="https://twitter.com/augieortiz" target="_blank"><p class="navContent1" id="twitter">Twitter </p></a><p class="navContent1">|</p><a href="https://www.facebook.com/ortizaugie" target="_blank"><p class="navContent1" id="facebook"</p>facebook</a><p class="navContent1">|</p>');
          $("#cssmenu").addClass('animated fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $("#cssmenu").removeClass('animated fadeInDown');
         });
@@ -249,7 +249,7 @@ $(document).ready(function () {
         });
     }, function () {
         $("#cssmenu").css({ background: "black" });
-        $("#nav").html(' <p class="navContent1">|</p><a href="#" target=""><p class="navContent1" id="homes">Agustin Ortiz</p></a><p class="navContent1">|</p><a href="https://www.linkedin.com/pub/agustin-ortiz/5a/b60/764" target="_blank"><p class="navContent1" id="linkedIn">LinkedIn </p></a><p class="navContent1">|</p><a href="https://twitter.com/augieortiz" target="_blank"><p class="navContent1" id="twitter">Twitter </p></a><p class="navContent1">|</p><a href="https://www.facebook.com/ortizaugie" target="_blank"><p class="navContent1" id="facebook"</p>facebook</a><p class="navContent1">|</p>');
+        $("#nav").html(' <p class="navContent1">|</p><a href="#" target=""><p class="navContent1" id="homes">Antonio Ortiz</p></a><p class="navContent1">|</p><a href="https://www.linkedin.com/in/antonio-ortiz-0a9343135/" target="_blank"><p class="navContent1" id="linkedIn">LinkedIn </p></a><p class="navContent1">|</p><a href="https://twitter.com/augieortiz" target="_blank"><p class="navContent1" id="twitter">Twitter </p></a><p class="navContent1">|</p><a href="https://www.facebook.com/ortizaugie" target="_blank"><p class="navContent1" id="facebook"</p>facebook</a><p class="navContent1">|</p>');
          $("#cssmenu").addClass('animated fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $("#cssmenu").removeClass('animated fadeInDown');
         });
@@ -262,7 +262,7 @@ $(document).ready(function () {
         });
     }, function () {
         $("#cssmenu").css({ background: "black" });
-        $("#nav").html(' <p class="navContent1">|</p><a href="#" target=""><p class="navContent1" id="homes">Agustin Ortiz</p></a><p class="navContent1">|</p><a href="https://www.linkedin.com/pub/agustin-ortiz/5a/b60/764" target="_blank"><p class="navContent1" id="linkedIn">LinkedIn </p></a><p class="navContent1">|</p><a href="https://twitter.com/augieortiz" target="_blank"><p class="navContent1" id="twitter">Twitter </p></a><p class="navContent1">|</p><a href="https://www.facebook.com/ortizaugie" target="_blank"><p class="navContent1" id="facebook"</p>facebook</a><p class="navContent1">|</p>');
+        $("#nav").html(' <p class="navContent1">|</p><a href="#" target=""><p class="navContent1" id="homes">Antonio Ortiz</p></a><p class="navContent1">|</p><a href="https://www.linkedin.com/in/antonio-ortiz-0a9343135/" target="_blank"><p class="navContent1" id="linkedIn">LinkedIn </p></a><p class="navContent1">|</p><a href="https://twitter.com/augieortiz" target="_blank"><p class="navContent1" id="twitter">Twitter </p></a><p class="navContent1">|</p><a href="https://www.facebook.com/ortizaugie" target="_blank"><p class="navContent1" id="facebook"</p>facebook</a><p class="navContent1">|</p>');
          $("#cssmenu").addClass('animated fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $("#cssmenu").removeClass('animated fadeInDown');
         });
@@ -275,7 +275,7 @@ $(document).ready(function () {
         });
     }, function () {
         $("#cssmenu").css({ background: "black" });
-        $("#nav").html('<p class="navContent1">|</p> <a href="#" target=""><p class="navContent1" id="homes">Agustin Ortiz</p></a><p class="navContent1">|</p><a href="https://www.linkedin.com/pub/agustin-ortiz/5a/b60/764" target="_blank"><p class="navContent1" id="linkedIn">LinkedIn </p></a><p class="navContent1">|</p><a href="https://twitter.com/augieortiz" target="_blank"><p class="navContent1" id="twitter">Twitter </p></a><p class="navContent1">|</p><a href="https://www.facebook.com/ortizaugie" target="_blank"><p class="navContent1" id="facebook"</p>facebook</a><p class="navContent1">|</p>');
+        $("#nav").html('<p class="navContent1">|</p> <a href="#" target=""><p class="navContent1" id="homes">Antonio Ortiz</p></a><p class="navContent1">|</p><a href="https://www.linkedin.com/in/antonio-ortiz-0a9343135/" target="_blank"><p class="navContent1" id="linkedIn">LinkedIn </p></a><p class="navContent1">|</p><a href="https://twitter.com/augieortiz" target="_blank"><p class="navContent1" id="twitter">Twitter </p></a><p class="navContent1">|</p><a href="https://www.facebook.com/ortizaugie" target="_blank"><p class="navContent1" id="facebook"</p>facebook</a><p class="navContent1">|</p>');
          $("#cssmenu").addClass('animated fadeInDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
             $("#cssmenu").removeClass('animated fadeInDown');
         });
